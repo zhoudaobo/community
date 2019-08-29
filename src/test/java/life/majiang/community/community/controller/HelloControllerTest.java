@@ -12,7 +12,7 @@ public class HelloControllerTest {
     @Deployment
     public static JavaArchive createDeployment() {
         return ShrinkWrap.create(JavaArchive.class)
-                .addClass(HelloController.class)
+                .addClass(IndexController.class)
                 .addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml");
     }
 
