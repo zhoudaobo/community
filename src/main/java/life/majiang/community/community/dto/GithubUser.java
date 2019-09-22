@@ -1,6 +1,7 @@
 package life.majiang.community.community.dto;
 
 public class GithubUser {
+
     private String name;
     private Long id;
     private String bio;
@@ -28,5 +29,12 @@ public class GithubUser {
         this.bio = bio;
     }
 
-
+    @Override
+    public String toString() {
+        return "GithubUser{" +
+                "name='" + name + '\'' +
+                ", id=" + id +
+                ", bio='" + bio + '\'' +
+                '}';
+    }
 }

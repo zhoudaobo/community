@@ -16,6 +16,7 @@
 [快速创建get and set 方法，ALT+insert,并选择所有]
 [Alt + enter ,快速显示系统提示]
 [shift + enter ,自动换行，并且光标在前]
-[ctrl + shift + v 快速为对象兴建变量]
+[ctrl + shift + v 快速为对象兴建变量,
+ctrl + shift + f12 将界面放到最大]，
 [ctel + e 在工具内快速的切换到最近的窗口]
 [@value("${hdj}") 可将appllcation.peoperties 配置文件中的变量引入需要的文件中]
